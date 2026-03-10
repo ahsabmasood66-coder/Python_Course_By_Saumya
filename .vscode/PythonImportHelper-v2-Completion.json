@@ -1,0 +1,385 @@
+[
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "tkinter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "filedialog",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "messagebox",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "diameter",
+        "kind": 5,
+        "importPath": "Chapter 1 .Assignment2",
+        "description": "Chapter 1 .Assignment2",
+        "peekOfCode": "diameter = int(input(\"Inter the value of diameter: \"))\nradius = diameter/2\narea = 3.14 * (radius ** 2)\nprint(\"Radius of the circle is\", radius)\nprint(\"Area of circle is\", area)",
+        "detail": "Chapter 1 .Assignment2",
+        "documentation": {}
+    },
+    {
+        "label": "radius",
+        "kind": 5,
+        "importPath": "Chapter 1 .Assignment2",
+        "description": "Chapter 1 .Assignment2",
+        "peekOfCode": "radius = diameter/2\narea = 3.14 * (radius ** 2)\nprint(\"Radius of the circle is\", radius)\nprint(\"Area of circle is\", area)",
+        "detail": "Chapter 1 .Assignment2",
+        "documentation": {}
+    },
+    {
+        "label": "area",
+        "kind": 5,
+        "importPath": "Chapter 1 .Assignment2",
+        "description": "Chapter 1 .Assignment2",
+        "peekOfCode": "area = 3.14 * (radius ** 2)\nprint(\"Radius of the circle is\", radius)\nprint(\"Area of circle is\", area)",
+        "detail": "Chapter 1 .Assignment2",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Chapter 1 .codeExecution",
+        "description": "Chapter 1 .codeExecution",
+        "peekOfCode": "name = \"Saumya Singh\"\nage1 = 25\nage2 = 40\nprint(\"Actual Value:\" , age2)\nfavSubject = \"Maths\"\nage2 = age1\nprint(\"Changed Value:\" , age2)",
+        "detail": "Chapter 1 .codeExecution",
+        "documentation": {}
+    },
+    {
+        "label": "age1",
+        "kind": 5,
+        "importPath": "Chapter 1 .codeExecution",
+        "description": "Chapter 1 .codeExecution",
+        "peekOfCode": "age1 = 25\nage2 = 40\nprint(\"Actual Value:\" , age2)\nfavSubject = \"Maths\"\nage2 = age1\nprint(\"Changed Value:\" , age2)",
+        "detail": "Chapter 1 .codeExecution",
+        "documentation": {}
+    },
+    {
+        "label": "age2",
+        "kind": 5,
+        "importPath": "Chapter 1 .codeExecution",
+        "description": "Chapter 1 .codeExecution",
+        "peekOfCode": "age2 = 40\nprint(\"Actual Value:\" , age2)\nfavSubject = \"Maths\"\nage2 = age1\nprint(\"Changed Value:\" , age2)",
+        "detail": "Chapter 1 .codeExecution",
+        "documentation": {}
+    },
+    {
+        "label": "favSubject",
+        "kind": 5,
+        "importPath": "Chapter 1 .codeExecution",
+        "description": "Chapter 1 .codeExecution",
+        "peekOfCode": "favSubject = \"Maths\"\nage2 = age1\nprint(\"Changed Value:\" , age2)",
+        "detail": "Chapter 1 .codeExecution",
+        "documentation": {}
+    },
+    {
+        "label": "age2",
+        "kind": 5,
+        "importPath": "Chapter 1 .codeExecution",
+        "description": "Chapter 1 .codeExecution",
+        "peekOfCode": "age2 = age1\nprint(\"Changed Value:\" , age2)",
+        "detail": "Chapter 1 .codeExecution",
+        "documentation": {}
+    },
+    {
+        "label": "convertedValue",
+        "kind": 5,
+        "importPath": "Chapter 2.explicit",
+        "description": "Chapter 2.explicit",
+        "peekOfCode": "convertedValue = float(num)\nprint(\"Orginal Value is \", num, \"Data Type :\", type(num))\nprint(\"Converted Value is \", convertedValue, \"Data Type :\", type(convertedValue))",
+        "detail": "Chapter 2.explicit",
+        "documentation": {}
+    },
+    {
+        "label": "game",
+        "kind": 5,
+        "importPath": "Chapter 2.keywords",
+        "description": "Chapter 2.keywords",
+        "peekOfCode": "game = \"Badminton\"",
+        "detail": "Chapter 2.keywords",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "Chapter 2.practice1",
+        "description": "Chapter 2.practice1",
+        "peekOfCode": "age = input(\"Enter your age : \")\nprint(\"Value entered is :\", age)\nprint(\"Data type is : \", type(age))",
+        "detail": "Chapter 2.practice1",
+        "documentation": {}
+    },
+    {
+        "label": "collegesTuple",
+        "kind": 5,
+        "importPath": "Chapter 6.forLoopBasic",
+        "description": "Chapter 6.forLoopBasic",
+        "peekOfCode": "collegesTuple = (\"NIT-Delhi\", \"ABES\", \"BBAU\", \"IIT-D\", \"IIT-H\")\nfor eachItem in collegesTuple:\n    print(\"Colleges Visited by Saumya\" , eachItem)",
+        "detail": "Chapter 6.forLoopBasic",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Chapter 6.loopsBasic",
+        "description": "Chapter 6.loopsBasic",
+        "peekOfCode": "num = 1\nwhile num<=5:\n    print(\"Saumya Singh\")\n    num= num+1\nprint(\"Now we are out of the while loop\")\n'''\nnum= 1 Saumya Singh\n2 Saumya Singh\n3 Saumya Singh\n4 Saumya Singh",
+        "detail": "Chapter 6.loopsBasic",
+        "documentation": {}
+    },
+    {
+        "label": "average",
+        "kind": 2,
+        "importPath": "Chapter7.FunctionParam",
+        "description": "Chapter7.FunctionParam",
+        "peekOfCode": "def average(a=10,b=20):\n    averageValue= (a+b)/2\n    print(averageValue)\n# Function Calling with Arguments \naverage(5, 10)\naverage(7, 10)\naverage(80, 98)\naverage()\n# Write a function show_age(name, age) that prints: \"Saumya Singh is 21\n# years old.\"",
+        "detail": "Chapter7.FunctionParam",
+        "documentation": {}
+    },
+    {
+        "label": "show_age",
+        "kind": 2,
+        "importPath": "Chapter7.FunctionParam",
+        "description": "Chapter7.FunctionParam",
+        "peekOfCode": "def show_age(name=\"Saumya Singh\", age= 25):\n    print(f\"{name} is {age} years old\")\nshow_age(\"Saumya Singh\", 25)\nshow_age()\nshow_age(\"Divya\", 19)",
+        "detail": "Chapter7.FunctionParam",
+        "documentation": {}
+    },
+    {
+        "label": "sumFunc",
+        "kind": 2,
+        "importPath": "Chapter7.functionbasic",
+        "description": "Chapter7.functionbasic",
+        "peekOfCode": "def sumFunc() :\n    a=4\n    b=8\n    sum=a+b\n    print(sum)\nsumFunc() # print 12 \n# Function Calling \n# # .... 100 line of code\nsumFunc() # print 12 \n# # .... 100 line of code",
+        "detail": "Chapter7.functionbasic",
+        "documentation": {}
+    },
+    {
+        "label": "welcome_message",
+        "kind": 2,
+        "importPath": "Chapter7.practice1",
+        "description": "Chapter7.practice1",
+        "peekOfCode": "def welcome_message():\n    print(\"Welcome to Python Course by Saumya\")\n    print(\"Line 2\")\nwelcome_message() #function is being called \nwelcome_message() #function is being called \nwelcome_message() #function is being called\n# Define a function inspire() that prints a motivational quote with your\n# name.\n# FUNCTION DEFINITION , we have only defined the function here \ndef inspire():",
+        "detail": "Chapter7.practice1",
+        "documentation": {}
+    },
+    {
+        "label": "inspire",
+        "kind": 2,
+        "importPath": "Chapter7.practice1",
+        "description": "Chapter7.practice1",
+        "peekOfCode": "def inspire():\n    print(\"You are the master of your destiny: Saumya Singh\")\ninspire()\n# Simple Function Call with No Argument\ndef IamBest():\n    print(\"Just a Trial Function\")\nIamBest()",
+        "detail": "Chapter7.practice1",
+        "documentation": {}
+    },
+    {
+        "label": "IamBest",
+        "kind": 2,
+        "importPath": "Chapter7.practice1",
+        "description": "Chapter7.practice1",
+        "peekOfCode": "def IamBest():\n    print(\"Just a Trial Function\")\nIamBest()",
+        "detail": "Chapter7.practice1",
+        "documentation": {}
+    },
+    {
+        "label": "square",
+        "kind": 2,
+        "importPath": "Chapter7.practice2",
+        "description": "Chapter7.practice2",
+        "peekOfCode": "def square(num=10):\n    return num**2\nprint(square(3))",
+        "detail": "Chapter7.practice2",
+        "documentation": {}
+    },
+    {
+        "label": "countVowConso",
+        "kind": 2,
+        "importPath": "Chapter7.practice3",
+        "description": "Chapter7.practice3",
+        "peekOfCode": "def countVowConso(userInput):\n    #define vowels\n    vowels= \"aeiouAEIOU\"\n    countVowel= 0\n    countConsonants= 0\n    #SAUMYA123 \n    for eachChar in userInput:\n        if(eachChar.isalpha()):\n            if(eachChar in vowels):\n                countVowel= countVowel+1",
+        "detail": "Chapter7.practice3",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "Chapter7.returnBasic",
+        "description": "Chapter7.returnBasic",
+        "peekOfCode": "def multiply(a=10, b=10):\n    return a*b\nprint(multiply(10, 10))\nresult= multiply(5, 10)\nprint(result)",
+        "detail": "Chapter7.returnBasic",
+        "documentation": {}
+    },
+    {
+        "label": "Vehicle",
+        "kind": 6,
+        "importPath": "Chapter9.class",
+        "description": "Chapter9.class",
+        "peekOfCode": "class Vehicle:\n    color=\"black\" #attributes\n    petrolOrDiesel=\"petrol\" #attributes\n    mileage=\"10\" #attributes\n    def start():    #methods\n        print(\"When you press clutch and accelerator then vehicle is started\")\n#object creation\ncar= Vehicle()\ncar.color= \"pink\"\nprint(car.color)",
+        "detail": "Chapter9.class",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "kind": 6,
+        "importPath": "Chapter9.init",
+        "description": "Chapter9.init",
+        "peekOfCode": "class Student:\n    schoolName= \"ABC School\"\n    def __init__(self, name, course):\n        # print(\"Whenever a new object is created I am called automaticaly\")\n        # print(self)\n        self.name= name\n        self.course= course\nstudent1= Student(\"Khushi\", \"Btech\") #init method will be called\nprint(\"Student1 Name-\", student1.name)\nprint(\"Student1 Course-\", student1.course)",
+        "detail": "Chapter9.init",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "Chapter9.practice1",
+        "description": "Chapter9.practice1",
+        "peekOfCode": "class Car:\n    brand= \"Scorpio\"\nobj1= Car()\nprint(\"Brand name is - \", obj1.brand)",
+        "detail": "Chapter9.practice1",
+        "documentation": {}
+    },
+    {
+        "label": "Laptop",
+        "kind": 6,
+        "importPath": "Chapter9.practice2",
+        "description": "Chapter9.practice2",
+        "peekOfCode": "class Laptop:\n    brand= \"default\"\n    RAM= \"8GB\"\n    price= \"1 Lakh\"\nlaptop1= Laptop()\nlaptop1.brand= \"Macbook\" \nlaptop1.RAM= \"16GB\"\nprint(\"Laptop1 Brand - \", laptop1.brand)\nlaptop2= Laptop()\nlaptop2.brand= \"Lenovo\"",
+        "detail": "Chapter9.practice2",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "kind": 6,
+        "importPath": "Chapter9.practice3",
+        "description": "Chapter9.practice3",
+        "peekOfCode": "class Student:\n    def __init__(self, name, listOfMarks):\n        self.name= name\n        self.listOfMarks= listOfMarks\n    def average(self):\n        sum= 0\n        for eachValue in self.listOfMarks:\n            sum= sum+eachValue\n        average= sum/3\n        print(\"Average is: \", average)",
+        "detail": "Chapter9.practice3",
+        "documentation": {}
+    },
+    {
+        "label": "expensesList",
+        "kind": 5,
+        "importPath": "Project1.main",
+        "description": "Project1.main",
+        "peekOfCode": "expensesList = [] #list of expenses in form of dictionary \nprint(\" Welcome to Expense Tracker : \")\nwhile True:\n    print(\"====MENU====\")\n    print(\"1. Add Expense\")\n    print(\"2. View All Expenses\")\n    print(\"3. View Total Khrcha\")\n    print(\"4. Exit\")\n    choice= int(input(\"Please Enter Your Choice : \"))\n#ADD Expense",
+        "detail": "Project1.main",
+        "documentation": {}
+    },
+    {
+        "label": "getResponseOfBot",
+        "kind": 2,
+        "importPath": "Project2.main",
+        "description": "Project2.main",
+        "peekOfCode": "def getResponseOfBot(userQuestion):\n    userQuestion= userQuestion.lower()\n    for eachKey in responses:\n        if eachKey in userQuestion:\n            return responses[eachKey]\n    return \"I am not able to tell that yet. Mai jald hi ye sikh lunga\"    \n# Take user input \nwhile True:\n    userInput= input(\"Please ask your question:\")\n    reply= getResponseOfBot(userInput)",
+        "detail": "Project2.main",
+        "documentation": {}
+    },
+    {
+        "label": "responses",
+        "kind": 5,
+        "importPath": "Project2.main",
+        "description": "Project2.main",
+        "peekOfCode": "responses = {\n    \"hello\": \"Hi, welcome. How can I help you?\",\n    \"how are you\": \"I am very fine. Thank you\",\n    \"who are you\": \"I am smart AI chatbot\",\n    \"motivate me\": \"Keep going. Every bug of your project makes you a better developer\",\n    \"happy\": \"Great to hear that\",\n    \"functions kya hote hai\": \"jakar chapter 7 padho\"\n} \n# Method/Function to get response of ChatBot \ndef getResponseOfBot(userQuestion):",
+        "detail": "Project2.main",
+        "documentation": {}
+    },
+    {
+        "label": "currentTime",
+        "kind": 2,
+        "importPath": "Project3.main",
+        "description": "Project3.main",
+        "peekOfCode": "def currentTime():\n    # find current time and display on the clock \n    # update the time in every 1000 milliseconds \n    string= time.strftime('%H:%M:%S %p \\n %D')\n    label.config(text=string)\n    label.after(1000,currentTime)\nlabel= tk.Label(\n    root,\n    font=('calibri', 60, 'bold'),\n    background='yellow',",
+        "detail": "Project3.main",
+        "documentation": {}
+    },
+    {
+        "label": "new_file",
+        "kind": 2,
+        "importPath": "Project4.main",
+        "description": "Project4.main",
+        "peekOfCode": "def new_file():\n    text.delete(1.0, tk.END)\n# Function 2 - to open a new file \ndef open_file():\n    # open file dialogue \n    file_path= filedialog.askopenfilename(\n        defaultextension=\".txt\",\n        filetypes=[(\"Text Files\", \"*.txt\")]\n    )\n    if file_path:",
+        "detail": "Project4.main",
+        "documentation": {}
+    },
+    {
+        "label": "open_file",
+        "kind": 2,
+        "importPath": "Project4.main",
+        "description": "Project4.main",
+        "peekOfCode": "def open_file():\n    # open file dialogue \n    file_path= filedialog.askopenfilename(\n        defaultextension=\".txt\",\n        filetypes=[(\"Text Files\", \"*.txt\")]\n    )\n    if file_path:\n        #open selected file \n        with open(file_path, \"r\") as file:\n            text.delete(1.0, tk.END)",
+        "detail": "Project4.main",
+        "documentation": {}
+    },
+    {
+        "label": "save_file",
+        "kind": 2,
+        "importPath": "Project4.main",
+        "description": "Project4.main",
+        "peekOfCode": "def save_file():\n    #open save file dialogue \n    file_path= filedialog.asksaveasfilename(\n        defaultextension=\".txt\",\n        filetypes=[(\"Text Files\", \"*.txt\")]\n    )\n    if file_path:\n        with open(file_path, \"w\") as file:\n            file.write(text.get(1.0, tk.END))\n    messagebox.showinfo(\"Info\", \"File saved successfully\")",
+        "detail": "Project4.main",
+        "documentation": {}
+    },
+    {
+        "label": "start_slideshow",
+        "kind": 2,
+        "importPath": "Project5.main",
+        "description": "Project5.main",
+        "peekOfCode": "def start_slideshow():\n    for photo in final_images:\n        image_label.config(image=photo)\n        image_label.image= photo\n        root.update()\n        time.sleep(2)\n#Button \nplay_button= tk.Button(\n    root,\n    text= \"Play the Slideshow\",",
+        "detail": "Project5.main",
+        "documentation": {}
+    }
+]

@@ -13,7 +13,7 @@ while True:
     choice= int(input("Please Enter Your Choice : "))
 
 #ADD Expense
-    if(choice == 1):
+    if choice == 1:
         date= input("Kis date par khrcha kiya tha?: ")
         category= input("Kis type ka khrcha kiya? (Food, Travel, Makeup, Books): ")
         description= input("Aur detail dedo: ")
@@ -29,27 +29,24 @@ while True:
         expensesList.append(expense)
         print(" \n DONE bro. Expense is added succesfully")
 
-# 2. VIEW ALL EXPENSES 
-    elif(choice == 2):
-        if( len(expensesList)==0 ):
-            print("No Expenses Added. Jao pehle khrcha karo. ")
-        else:
-           print("===== Ye y apka sara expense ======")
-           count= 1
-           for eachKharcha in expensesList:
-                print(f"Kharcha Number {count} -> {eachKharcha["date"]}, {eachKharcha["category"]}, {eachKharcha["description"]}, {eachKharcha["amount"]} ")
-                count= count+1
+    elif choice == 2:
+        if expensesList:
+            print("===== Ye y apka sara expense ======")
+            count= 1
+            for eachKharcha in expensesList:
+                 print(f"Kharcha Number {count} -> {eachKharcha["date"]}, {eachKharcha["category"]}, {eachKharcha["description"]}, {eachKharcha["amount"]} ")
+                 count= count+1
 
-# 3. View TOtal Spending 
-    elif(choice == 3):
+        else:
+            print("No Expenses Added. Jao pehle khrcha karo. ")
+    elif choice == 3:
         total= 0
         for eachKrcha in expensesList:
             total = total + eachKrcha["amount"]
 
         print("\n TOTAL KHRCHA = ", total)
 
-#4. EXIT 
-    elif(choice == 4):
+    elif choice == 4:
         print("Dhanyawad aaapne humara system use kiya")
         break
 
