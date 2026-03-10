@@ -378,7 +378,7 @@
         "kind": 2,
         "importPath": "Project5.main",
         "description": "Project5.main",
-        "peekOfCode": "def start_slideshow():\n    for photo in final_images:\n        image_label.config(image=photo)\n        image_label.image= photo\n        root.update()\n        time.sleep(2)\n#Button \nplay_button= tk.Button(\n    root,\n    text= \"Play the Slideshow\",",
+        "peekOfCode": "def start_slideshow():\n    global photo_reference\n    for photo in final_images:\n        image_label.config(image=photo)\n        photo_reference= photo\n        root.update()\n        time.sleep(2)\n#Button \nplay_button= tk.Button(\n    root,",
         "detail": "Project5.main",
         "documentation": {}
     }

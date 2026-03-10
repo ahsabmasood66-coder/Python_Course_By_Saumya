@@ -33,12 +33,14 @@ for img in images:
 # Label widget to keep photuuu 
 image_label= tk.Label(root)
 image_label.pack(pady=30)
+photo_reference= None
 
 # Slideshow Function 
 def start_slideshow():
+    global photo_reference
     for photo in final_images:
         image_label.config(image=photo)
-        image_label.image= photo
+        photo_reference= photo
         root.update()
         time.sleep(2)
 
