@@ -324,7 +324,7 @@
         "kind": 2,
         "importPath": "Project2.main",
         "description": "Project2.main",
-        "peekOfCode": "def getResponseOfBot(userQuestion):\n    userQuestion= userQuestion.lower()\n    for eachKey in responses:\n        if eachKey in userQuestion:\n            return responses[eachKey]\n    return \"I am not able to tell that yet. Mai jald hi ye sikh lunga\"    \n# Take user input \nwhile True:\n    userInput= input(\"Please ask your question:\")\n    reply= getResponseOfBot(userInput)",
+        "peekOfCode": "def getResponseOfBot(userQuestion):\n    userQuestion = userQuestion.lower()\n    # find first key contained in the question\n    key = next((k for k in responses if k in userQuestion), None)\n    if key:\n        return responses[key]\n    return \"I am not able to tell that yet. Mai jald hi ye sikh lunga\"    \n# Take user input \nwhile True:\n    userInput= input(\"Please ask your question:\")",
         "detail": "Project2.main",
         "documentation": {}
     },

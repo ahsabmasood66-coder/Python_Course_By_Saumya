@@ -34,11 +34,11 @@ responses = {
 # Method/Function to get response of ChatBot 
 
 def getResponseOfBot(userQuestion):
-    userQuestion= userQuestion.lower()
-    for eachKey in responses:
-        if eachKey in userQuestion:
-            return responses[eachKey]
-
+    userQuestion = userQuestion.lower()
+    # find first key contained in the question
+    key = next((k for k in responses if k in userQuestion), None)
+    if key:
+        return responses[key]
     return "I am not able to tell that yet. Mai jald hi ye sikh lunga"    
     
 
