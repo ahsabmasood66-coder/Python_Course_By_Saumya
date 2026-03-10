@@ -25,12 +25,10 @@ def new_file():
 # Function 2 - to open a new file 
 def open_file():
     # open file dialogue 
-    file_path= filedialog.askopenfilename(
+    if file_path := filedialog.askopenfilename(
         defaultextension=".txt",
         filetypes=[("Text Files", "*.txt")]
-    )
-
-    if file_path:
+    ):
         #open selected file 
         with open(file_path, "r") as file:
             text.delete(1.0, tk.END)
@@ -40,16 +38,14 @@ def open_file():
 
 def save_file():
     #open save file dialogue 
-    file_path= filedialog.asksaveasfilename(
+    if file_path := filedialog.asksaveasfilename(
         defaultextension=".txt",
         filetypes=[("Text Files", "*.txt")]
-    )
-
-    if file_path:
+    ):
         with open(file_path, "w") as file:
             file.write(text.get(1.0, tk.END))
 
-    messagebox.showinfo("Info", "File saved successfully")
+        messagebox.showinfo("Info", "File saved successfully")
 
 # Create Menu Bar 
 menu= tk.Menu(root)

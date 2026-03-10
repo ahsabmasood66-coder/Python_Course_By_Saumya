@@ -351,7 +351,7 @@
         "kind": 2,
         "importPath": "Project4.main",
         "description": "Project4.main",
-        "peekOfCode": "def new_file():\n    text.delete(1.0, tk.END)\n# Function 2 - to open a new file \ndef open_file():\n    # open file dialogue \n    file_path= filedialog.askopenfilename(\n        defaultextension=\".txt\",\n        filetypes=[(\"Text Files\", \"*.txt\")]\n    )\n    if file_path:",
+        "peekOfCode": "def new_file():\n    text.delete(1.0, tk.END)\n# Function 2 - to open a new file \ndef open_file():\n    # open file dialogue \n    if file_path := filedialog.askopenfilename(\n        defaultextension=\".txt\",\n        filetypes=[(\"Text Files\", \"*.txt\")]\n    ):\n        #open selected file ",
         "detail": "Project4.main",
         "documentation": {}
     },
@@ -360,7 +360,7 @@
         "kind": 2,
         "importPath": "Project4.main",
         "description": "Project4.main",
-        "peekOfCode": "def open_file():\n    # open file dialogue \n    file_path= filedialog.askopenfilename(\n        defaultextension=\".txt\",\n        filetypes=[(\"Text Files\", \"*.txt\")]\n    )\n    if file_path:\n        #open selected file \n        with open(file_path, \"r\") as file:\n            text.delete(1.0, tk.END)",
+        "peekOfCode": "def open_file():\n    # open file dialogue \n    if file_path := filedialog.askopenfilename(\n        defaultextension=\".txt\",\n        filetypes=[(\"Text Files\", \"*.txt\")]\n    ):\n        #open selected file \n        with open(file_path, \"r\") as file:\n            text.delete(1.0, tk.END)\n            text.insert(tk.END, file.read())",
         "detail": "Project4.main",
         "documentation": {}
     },
@@ -369,7 +369,7 @@
         "kind": 2,
         "importPath": "Project4.main",
         "description": "Project4.main",
-        "peekOfCode": "def save_file():\n    #open save file dialogue \n    file_path= filedialog.asksaveasfilename(\n        defaultextension=\".txt\",\n        filetypes=[(\"Text Files\", \"*.txt\")]\n    )\n    if file_path:\n        with open(file_path, \"w\") as file:\n            file.write(text.get(1.0, tk.END))\n    messagebox.showinfo(\"Info\", \"File saved successfully\")",
+        "peekOfCode": "def save_file():\n    #open save file dialogue \n    if file_path := filedialog.asksaveasfilename(\n        defaultextension=\".txt\",\n        filetypes=[(\"Text Files\", \"*.txt\")]\n    ):\n        with open(file_path, \"w\") as file:\n            file.write(text.get(1.0, tk.END))\n        messagebox.showinfo(\"Info\", \"File saved successfully\")\n# Create Menu Bar ",
         "detail": "Project4.main",
         "documentation": {}
     },
